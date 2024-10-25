@@ -21,6 +21,7 @@ const getUserOpt = (type) => {
         if (!isNaN(Number(temp))) {
           return temp;
         }
+        console.log(`Invalid input. (Hint: It must be a number!)`);
         break;
       case 'menu':
         temp = Number(prompt(`👉 `, '*'));
