@@ -5,9 +5,7 @@ const {
   terminalLineBreak,
   delay
 } = require(`./utils.js`)
-// -------------------------------------------------------------- //
-// ----------------------- MAIN FUNCTIONS ----------------------- // 
-// -------------------------------------------------------------- //
+
 const welcomeAndGetName = () => {
   // todo maybe name validation? if needed?
   console.log(`Hello there!\n${terminalLineBreak('-')}`);

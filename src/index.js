@@ -1,4 +1,3 @@
-const prompt = require('prompt-sync')( {sigint: true} );
 const { getUserOpt } = require('./utils.js');
 const {
   welcomeAndGetName,
