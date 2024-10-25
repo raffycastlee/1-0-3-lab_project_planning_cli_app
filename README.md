@@ -1,23 +1,36 @@
-# DONE
+# Running the CLI Application
+1. Clone this repo.
+```bash
+git clone git@github.com:raffycastlee/1-0-3-lab_project_planning_cli_app.git
+```
+2. Install `npm` dependecies.
+```bash
+npm i
+```
+3. Start the app!
+```bash
+npm start
+```
 
-## Implementation:
-### Foundations
+# Implementation:
+## Foundations
 - [x] A user can interact dynamically with the program
 - [x] A user will be greeted by the program
 - [x] A user can see a list of options for the program
 - [x] When exiting, the program will say goodbye to the user
-### MVP
+## MVP
 - [x] A user will choose from options about what they want to do
 - [x] A user can play a random number guessing game
 - [x] A user can abandon the program by pressing any key at the option select
-### Stretch Features
+## Stretch Features
 - [x] A user can get a random piece of advice
 - [x] A user can get a random cheer
 - [x] A user's inputs can be validated
-### Stretch upon Stretch
+## Stretch upon Stretch
 - [x] Delay when producing random int for guessing game
 - [x] Split into modules (++utils, handlers)
 - [x] Loop until quit on Main Menu
+- [x] README.md updated for public
 
 # 1.0.3 Lab: Project Planning with a CLI App
 - [1.0.3 Lab: Project Planning with a CLI App](#103-lab-project-planning-with-a-cli-app)
